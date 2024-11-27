@@ -1,5 +1,5 @@
 .storybook-button {
-  @apply flex flex-row justify-center items-center border-[1px];
+  @apply flex flex-row justify-center items-center border-[1px] border-solid;
   @apply hover:scale-105;
 }
 
