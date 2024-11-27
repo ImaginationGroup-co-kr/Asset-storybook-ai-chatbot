@@ -1,0 +1,27 @@
+.storybook-chat-item--user-container-large {
+  @apply relative flex flex-col w-full items-end pl-4 gap-2;
+}
+
+.storybook-chat-item--user-container-medium {
+  @apply relative flex flex-col w-full items-end pl-4 gap-2 min-h-9;
+}
+
+.storybook-chat-item--user-container-small {
+  @apply relative flex flex-col w-full items-end pl-3 gap-2 min-h-7;
+}
+
+.storybook-chat-item--assistant-container-large {
+  @apply relative flex flex-col w-full items-start pl-16 pr-4 gap-2;
+}
+
+.storybook-chat-item--assistant-container-medium {
+  @apply relative flex flex-col w-full items-start pr-4 gap-2 min-h-9;
+}
+
+.storybook-chat-item--assistant-container-small {
+  @apply relative flex flex-col w-full items-start pr-3 gap-2 min-h-7;
+}
+
+.storybook-chat-item--assistant-profile {
+  @apply absolute left-0 top-0 w-12 h-12 rounded-full bg-gray-100 outline-none border-none;
+}

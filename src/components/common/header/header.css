@@ -1,0 +1,24 @@
+.storybook-header--container {
+  @apply relative flex flex-row w-full justify-between items-center h-fit py-4 px-6 bg-blue-800 text-white;
+  
+}
+
+.storybook-header--container-texts {
+  @apply relative w-fit h-fit flex flex-col gap-2 items-start;
+}
+
+.storybook-header--container-buttons {
+  @apply relative w-fit h-fit flex flex-row gap-2 items-center;
+}
+
+.storybook-header--title {
+  @apply m-0 text-2xl text-start text-white font-medium;
+}
+
+.storybook-header--subtitle {
+  @apply text-sm text-start text-white font-light;
+}
+
+.storybook-header--button {
+  @apply border-none outline-none bg-transparent text-white font-medium w-fit h-fit;
+}

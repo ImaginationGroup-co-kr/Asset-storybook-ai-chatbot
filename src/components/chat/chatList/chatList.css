@@ -1,0 +1,16 @@
+.storybook-chat-list--list-large {
+  @apply flex flex-col gap-3 w-full h-full p-8 overflow-y-auto overflow-x-hidden pt-14;
+  @apply after:absolute after:top-0 after:left-0 after:right-0 after:bottom-0 after:pointer-events-none after:shadow-inner after:z-50;
+}
+
+.storybook-chat-list--list-medium {
+  @apply flex flex-col gap-6 w-full h-full p-2 pt-14 overflow-hidden;
+}
+
+.storybook-chat-list--list-small {
+  @apply flex flex-col gap-6 w-full h-full p-2 overflow-hidden;
+}
+
+.storybook-chat-list--item {
+  @apply relative w-full h-full;
+}

@@ -1,0 +1,15 @@
+.storybook-history-item--medium {
+  @apply flex flex-col gap-6 w-full h-full p-2 pt-14 overflow-hidden;
+}
+
+.storybook-history-item--small {
+  @apply transition-all ease-in-out duration-300 rounded-3xl;
+
+  &:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+}
+
+.storybook-history-item--selected {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,20 @@
+.storybook-bubble {
+  @apply relative w-fit h-fit max-w-[90%] flex flex-col gap-1 overflow-hidden;
+}
+
+.storybook-bubble--user {
+  @apply bg-blue-800 text-white rounded-tr-none !important;
+}
+.storybook-bubble--assistant {
+  @apply bg-gray-100 text-black rounded-tl-none !important;
+}
+
+.storybook-bubble--small {
+  @apply px-2 py-1 rounded-md text-sm;
+}
+.storybook-bubble--medium {
+  @apply px-2 py-1 rounded-lg text-base;
+}
+.storybook-bubble--large {
+  @apply px-3 py-2 rounded-xl text-lg;
+}

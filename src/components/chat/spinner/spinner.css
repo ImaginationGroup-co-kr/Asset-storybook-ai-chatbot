@@ -1,0 +1,31 @@
+.storybook-spinner {
+  @apply relative w-fit h-fit py-1 px-2 flex flex-row gap-3 items-end;
+}
+
+@keyframes waveEffect {
+  0%,
+  40%,
+  100% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+  70% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+}
+
+.storybook-spinner--dot {
+  @apply w-[6px] h-[6px] bg-gray-500 rounded-full;
+  animation: waveEffect 1.8s infinite ease-in-out;
+}
+
+.storybook-spinner--dot:nth-child(1) {
+  animation-delay: 0s;
+}
+.storybook-spinner--dot:nth-child(2) {
+  animation-delay: 0.4s;
+}
+.storybook-spinner--dot:nth-child(3) {
+  animation-delay: 0.8s;
+}

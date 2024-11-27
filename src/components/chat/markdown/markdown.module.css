@@ -1,0 +1,133 @@
+.paragraph {
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Table Styles */
+.table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  margin: 30px 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.tableHeader,
+.tableCell {
+  padding: 20px 24px;
+  text-align: left;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.tableHeader {
+  background-color: #2d3748;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.tableRow:nth-child(even) {
+  background-color: #f7fafc;
+}
+
+.tableRow:hover {
+  background-color: #edf2f7;
+  transition: all 0.2s ease;
+}
+
+.tableCell {
+  color: #4a5568;
+  font-size: 17px;
+  line-height: 1.7;
+  border-right: 1px solid #e2e8f0;
+  font-weight: 500;
+}
+
+.tableCell:last-child {
+  border-right: none;
+}
+
+.tableRow:last-child .tableCell {
+  border-bottom: none;
+}
+
+/* Heading Styles */
+.heading1 {
+  background: linear-gradient(45deg, #1a365d, #2b6cb0);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 0.5em 0;
+}
+
+.heading2 {
+  background: #f7fafc;
+  padding: 0.8em;
+  border-radius: 8px;
+  border-left: 4px solid #4299e1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.heading3 {
+  display: inline-block;
+  padding: 0.5em 1em;
+  background: linear-gradient(to right, #f7fafc 0%, transparent 100%);
+  border-radius: 4px;
+}
+
+/* List Styles */
+.unorderedList,
+.orderedList {
+  list-style: none;
+  padding: 0;
+}
+
+.unorderedList .listItem,
+.orderedList .listItem {
+  padding: 0.5em 1em;
+  /* margin: 0.5em 0; */
+  color: #000000;
+  /* line-height: 1.6; */
+}
+
+/* Nested Lists */
+.orderedList .orderedList .listItem {
+  margin-left: 1em;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .table {
+    font-size: 15px;
+    margin: 20px 0;
+    border-radius: 6px;
+  }
+
+  .tableHeader,
+  .tableCell {
+    padding: 16px 20px;
+  }
+}
+
+/* Link Styles */
+.link {
+  color: #3b82f6;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.1em 0.2em;
+  margin: 0 0.1em;
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s ease;
+  border-radius: 3px;
+  word-break: break-all;
+}
+
+.link:hover {
+  background-color: rgba(59, 130, 246, 0.1);
+  border-bottom-color: #3b82f6;
+}

@@ -1,0 +1,7 @@
+.storybook-step-input--container {
+  @apply w-full h-20 py-4 px-9 flex flex-row items-center justify-end gap-2;
+}
+
+.storybook-step-input--text-input {
+  @apply flex-1 h-fit px-4 py-3 border-[1px] text-lg border-blue-800 rounded-lg;
+}

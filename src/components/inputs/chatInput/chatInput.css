@@ -1,0 +1,15 @@
+.storybook-chat-input--container {
+  @apply w-full h-20 py-4 px-9 flex items-center justify-center;
+}
+
+.storybook-chat-input--form {
+  @apply w-full h-fit py-2 px-3 flex items-center justify-center gap-2 bg-gray-100 rounded-2xl text-black transition-all duration-300 ease-in-out;
+}
+
+.storybook-chat-input--text-input {
+  @apply flex-1 outline-none border-none bg-transparent text-xl text-neutral-700 focus:outline-none disabled:opacity-50
+}
+
+.storybook-chat-input--submit-input {
+  @apply outline-none border-none w-fit h-fit bg-transparent disabled:opacity-50;
+}

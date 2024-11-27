@@ -1,0 +1,21 @@
+.storybook-button {
+  @apply flex flex-row justify-center items-center border-[1px];
+  @apply hover:scale-105;
+}
+
+.storybook-button--primary {
+  @apply bg-blue-800 text-white border-blue-800;
+}
+.storybook-button--secondary {
+  @apply bg-white text-black border-black;
+}
+
+.storybook-button--small {
+  @apply px-4 py-2 text-xs rounded-md;
+}
+.storybook-button--medium {
+  @apply px-5 py-3 text-sm rounded-md;
+}
+.storybook-button--large {
+  @apply px-6 py-4 text-lg rounded-md;
+}

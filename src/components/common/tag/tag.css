@@ -1,0 +1,22 @@
+.storybook-tag {
+  @apply relative w-fit h-fit max-w-full border-[1px] border-solid border-gray-400;
+  @apply flex flex-row justify-center items-center text-right text-wrap break-keep;
+  @apply transition-all duration-200 ease-in-out cursor-pointer hover:scale-105 hover:border-gray-900;
+}
+
+.storybook-tag--normal {
+  @apply bg-white text-gray-600;
+}
+.storybook-tag--selected {
+  @apply bg-blue-50 text-black;
+}
+
+.storybook-tag--small {
+  @apply py-1 px-2 rounded-2xl text-base;
+}
+.storybook-tag--medium {
+  @apply py-1 px-3 rounded-3xl text-lg;
+}
+.storybook-tag--large {
+  @apply py-[0.35rem] px-3 rounded-3xl text-xl;
+}
