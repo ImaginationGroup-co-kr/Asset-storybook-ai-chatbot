@@ -1,5 +1,6 @@
 .storybook-bubble {
   @apply relative w-fit h-fit max-w-[90%] flex flex-col gap-1 overflow-hidden;
+  font-family: "Noto Sans KR", "Malgun Gothic", "맑은 고딕", "돋움", Dotum, "굴림", Gulim, Helvetica, AppleGothic, Sans-serif;
 }
 
 .storybook-bubble--user {
